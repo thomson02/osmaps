@@ -4,7 +4,8 @@
   "description": "osmaps routecard generator",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+	"heroku-postbuild": "webpack -p"
   },
   "author": "Andrew Thomson <thomson02@hotmail.com>",
   "license": "ISC",
